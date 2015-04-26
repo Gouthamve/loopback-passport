@@ -1,0 +1,26 @@
+{
+  "name": "student",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "fbId": {
+      "type": "string"
+    },
+    "fbToken": {
+      "type": "string"
+    },
+    "fbEmail": {
+      "type": "string"
+    },
+    "fbName": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
